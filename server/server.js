@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // React frontend URL
+    origin: "https://my-portfolio-frontend-three-pied.vercel.app", // React frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
